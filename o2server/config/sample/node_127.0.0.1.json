@@ -1,0 +1,75 @@
+{
+  "logLevel": "warn",
+  "enable": true,
+  "isPrimaryCenter": true,
+  "application": {
+    "enable": true,
+    "port": null,
+    "sslEnable": false,
+    "proxyHost": "",
+    "proxyPort": null,
+    "forceRedeploy": true,
+    "scanInterval": 5,
+    "includes": [],
+    "excludes": [
+    ]
+  },
+  "web": {
+    "enable": true,
+    "port": null,
+    "sslEnable": false,
+    "proxyHost": "",
+    "proxyPort": null,
+    "forceRedeploy": true
+  },
+  "storage": {
+    "name": "",
+    "enable": true,
+    "port": null,
+    "sslEnable": false
+  },
+  "data": {
+    "enable": true,
+    "tcpPort": null,
+    "webPort": null,
+	"jmxEnable" : true,
+	"cacheSize" : null,
+    "includes": [],
+    "excludes": []
+  },
+  "dumpData": {
+    "cron": "",
+    "size": 7
+  },
+  "dumpStorage": {
+    "cron": "",
+    "size": 7
+  },
+  "restoreData": {
+    "cron": "",
+    "date": ""
+  },
+  "restoreStorage": {
+    "cron": "",
+    "date": ""
+  },
+  "nodeAgentEnable" : true,
+  "nodeAgentEncrypt" : true,
+  "quickStartWebApp":false,
+  "dumpData":{
+	"cron" : "0 54 * * * ?",
+	"size" : 14
+  },
+  "dumpStorage":{
+	"cron" : "0 54 * * * ?",
+	"size" : 14
+  },
+  "restoreData":{
+	"cron" : "0 59/10 * * * ?",
+	"date":"20180802110954"
+  },
+  "restoreStorage":{
+	"cron" : "0 59/10 * * * ?",
+	"date":"20180802115711"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	id:"xadmin",
+	name:"xadmin",
+	employee:"xadmin",
+	display:"xadmin",
+	mail:"admin@o2server.io",
+	weixin:"xadmin",
+	qq:"xadmin",
+	weibo:"xadmin",
+	mobile:"13333333333",
+	roleList:["ProcessPlatformCreator","CompanyCreator","GroupCreator","MeetingManager"]
+}

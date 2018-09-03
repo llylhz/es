@@ -1,0 +1,36 @@
+{
+  "task_create": {
+    "consumers": [
+      "im",
+      "pms"
+    ]
+  },
+  "task_urge":{
+    "consumers": [
+      "im",
+	  "pms"
+    ]
+  },
+  "read_create": {
+    "consumers": [
+      "im",
+      "pms"
+    ]
+  },
+  "meeting_accept":{
+    "consumers": [
+      "calendar"
+    ]
+  },
+  "calendar_event_delete":{
+    "consumers": [
+      "calendar"
+    ]
+  },
+  "calendar_alarm":{
+    "consumers": [
+	  "im",
+	  "pms"
+    ]
+  }
+}

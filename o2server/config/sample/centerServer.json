@@ -1,0 +1,9 @@
+{
+    "proxyHost": "",
+    "proxyPort": null,
+	"port": null,
+	"forceRedeploy": true,
+	"sslEnable": false,
+	"scanInterval":null,
+	"httpProtocol":""
+}

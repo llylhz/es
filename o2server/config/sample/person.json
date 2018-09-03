@@ -1,0 +1,7 @@
+{
+	"superPermission":true,
+	"codeLogin":true,
+	"bindLogin":true,
+	"register":"code",
+	"password":"password"
+}
